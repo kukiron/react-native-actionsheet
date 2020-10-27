@@ -1,3 +1,5 @@
+> _Fork with fixes for RN v0.62+ warnings_
+
 # react-native-actionsheet
 Cross platform ActionSheet. This component implements a custom ActionSheet  and provides the same way to drawing it on the defferent platforms(iOS and Android). Actually, In order to keep the best effect, it still uses the ActionSheetIOS on iOS.
 
@@ -56,10 +58,10 @@ so you can customize option and title
 import { ActionSheetCustom as ActionSheet } from 'react-native-actionsheet'
 
 const options = [
-  'Cancel', 
-  'Apple', 
+  'Cancel',
+  'Apple',
   <Text style={{color: 'yellow'}}>Banana</Text>,
-  'Watermelon', 
+  'Watermelon',
   <Text style={{color: 'red'}}>Durian</Text>
 ]
 
